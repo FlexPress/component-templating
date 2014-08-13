@@ -1,0 +1,10 @@
+{
+    "name": "flexpress/component-templating",
+    "description": "Advanced Custom Fields helper for WordPress",
+    "autoload": {
+        "psr-4": {
+            "FlexPress\\Components\\Templating\\": "src/FlexPress/Components/Templating/"
+        }
+    }
+
+}
