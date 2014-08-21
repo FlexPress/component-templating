@@ -59,6 +59,10 @@ class BodyClasses implements FunctionInterface
             $classes[] = "page";
         }
 
+        if (is_page()) {
+            $classes[] = 'page--' . $post->post_name;
+        }
+
         if (is_404()) {
             $classes[] = 'page--404';
         } elseif (is_front_page()) {
